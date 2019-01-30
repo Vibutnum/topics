@@ -9,7 +9,25 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Topics</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Hots</a>
+          </nav>
+        </div>
+      </header>
+      <main role="main" class="inner cover">
+        <%= yield %>
+      </main>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Copyright ©️  2019 Created by <a href="https://github.com/Vibutnum">@lei.wang</a>.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
