@@ -9,7 +9,7 @@ gem 'rake'
 
 gem 'mysql2'
 
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 
 gem 'bootstrap', '~> 4.2.1'
 
